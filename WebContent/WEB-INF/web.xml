@@ -9,4 +9,24 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>Connex</display-name>
+    <servlet-name>Connex</servlet-name>
+    <servlet-class>com.acc.Connex</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Connex</servlet-name>
+    <url-pattern>/connex</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Insc</display-name>
+    <servlet-name>Insc</servlet-name>
+    <servlet-class>com.acc.Insc</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Insc</servlet-name>
+    <url-pattern>/insc</url-pattern>
+  </servlet-mapping>
 </web-app>
