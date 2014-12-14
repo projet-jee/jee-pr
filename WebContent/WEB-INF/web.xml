@@ -29,4 +29,15 @@
     <servlet-name>Insc</servlet-name>
     <url-pattern>/insc</url-pattern>
   </servlet-mapping>
+ 
+   <servlet>
+    <description></description>
+    <display-name>incri</display-name>
+    <servlet-name>incri</servlet-name>
+    <servlet-class>com.acc.Insc</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>incri</servlet-name>
+    <url-pattern>/inscription</url-pattern>
+  </servlet-mapping>
 </web-app>

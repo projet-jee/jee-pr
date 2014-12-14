@@ -28,7 +28,7 @@
                     <a class="hiddenanchor" id="tologin"></a>
                     <div id="wrapper">
                         <div id="login" class="animate form">
-                            <form  action="mysuperscript.php" autocomplete="on"> 
+                            <form  action="inscription" method="post" autocomplete="on"> 
                                 <h1>Sign up</h1> 
                                 <p> 
                                     <label for="username" class="uname" data-icon="u" > Your username </label>
@@ -37,7 +37,7 @@
 
                                 <p> 
                                     <label class="uname" data-icon="u" > Your e-mail </label>
-                                    <input id="mail" name="username" required="required" type="text" placeholder="mymail@"/>
+                                    <input id="mail" name="mail" required="required" type="text" placeholder="mymail@"/>
                                 </p>
 
 
