@@ -49,11 +49,7 @@
                                     <label for="passwordsignup_confirm" class="youpasswd" data-icon="p">Please confirm your password </label>
                                     <input id="passwordsignup_confirm" name="passwordsignup_confirm" required="required" type="password" placeholder="eg. X8df!90EO"/>
                                 </p>
-                                <p> 
-                                <label for="password">Photo</label>
-									<input type="file" name="inp" size="chars"> 
-									
-								</p>
+                               
                                 <p class="signin button"> 
 									<input type="submit" value="Sign up"/> 
 								</p>

@@ -29,8 +29,7 @@
     <servlet-name>Insc</servlet-name>
     <url-pattern>/insc</url-pattern>
   </servlet-mapping>
- 
-   <servlet>
+  <servlet>
     <description></description>
     <display-name>incri</display-name>
     <servlet-name>incri</servlet-name>
@@ -39,5 +38,35 @@
   <servlet-mapping>
     <servlet-name>incri</servlet-name>
     <url-pattern>/inscription</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ConnectionForm</display-name>
+    <servlet-name>ConnectionForm</servlet-name>
+    <servlet-class>bean.ConnectionForm</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ConnectionForm</servlet-name>
+    <url-pattern>/ConnectionForm</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Decon</display-name>
+    <servlet-name>Decon</servlet-name>
+    <servlet-class>com.acc.Decon</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Decon</servlet-name>
+    <url-pattern>/decon</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Location</display-name>
+    <servlet-name>Location</servlet-name>
+    <servlet-class>com.acc.Location</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Location</servlet-name>
+    <url-pattern>/Location</url-pattern>
   </servlet-mapping>
 </web-app>

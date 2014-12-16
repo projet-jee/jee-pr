@@ -4,16 +4,16 @@ public class User {
 	private String username ;
 	private String mail ;
 	private String password ;
-	private int age ;
 	
 	
-	public User(String username, String mail, String password, int age) {
+	public User(String username, String mail, String password) {
 		super();
 		this.username = username;
 		this.mail = mail;
 		this.password = password;
-		this.age = age;
 	}
+	public User()
+	{}
 	
 	public String getUsername() {
 		return username;
@@ -33,12 +33,7 @@ public class User {
 	public void setPassword(String password) {
 		this.password = password;
 	}
-	public int getAge() {
-		return age;
-	}
-	public void setAge(int age) {
-		this.age = age;
-	}
+	
 	
 
 }
